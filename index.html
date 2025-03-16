@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Clase Loka - Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?concert,music') center/cover;
+            height: 80vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .footer {
+            background: #000;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">La Clase Loka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-dark">
+        <div class="container">
+            <h1 class="display-3">¡La Clase Loka en acción!</h1>
+            <p class="lead">Música en vivo para cualquier ocasión. ¡Contrátanos ahora!</p>
+            <a href="#contacto" class="btn btn-primary btn-lg">Contrataciones</a>
+        </div>
+    </section>
+
+    <!-- Sección de Eventos -->
+    <section id="eventos" class="py-5 text-center">
+        <div class="container">
+            <h2>Próximos Eventos</h2>
+            <p>Consulta nuestras próximas presentaciones en vivo.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/400x300/?concert" class="card-img-top" alt="evento">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento Privado</h5>
+                            <p class="card-text">Fecha: 22 de Marzo 2025 - Puebla, México</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://source.unsplash.com/400x300/?party" class="card-img-top" alt="evento">
+                        <div class="card-body">
+                            <h5 class="card-title">Festival Musical</h5>
+                            <p class="card-text">Fecha: 10 de Abril 2025 - CDMX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Galería -->
+    <section id="galeria" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>Galería</h2>
+            <p>Fotos y videos de nuestras presentaciones.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://source.unsplash.com/400x300/?band" class="img-fluid rounded" alt="galeria">
+                </div>
+                <div class="col-md-4">
+                    <iframe width="100%" height="200" src="https://www.youtube.com/watch?v=0y_8lCBYCRU" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5 text-center">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Reserva tu evento con nosotros.</p>
+            <a href="https://wa.me/5210000000000" class="btn btn-success btn-lg">WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 La Clase Loka. Todos los derechos reservados.</p>
+            <p>Síguenos en: 
+                <a href="#" class="text-white">Facebook</a> | 
+                <a href="#" class="text-white">Instagram</a> | 
+                <a href="#" class="text-white">YouTube</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
